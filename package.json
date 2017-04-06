@@ -1,0 +1,21 @@
+{
+  "name": "create-countries",
+  "version": "1.0.0",
+  "description": "script for creating countries node in neo4j database",
+  "scripts": {
+    "start": "node create-countries-node.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "countries",
+    "neo4j"
+  ],
+  "author": "Kitisak Chaengsiri",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "colors": "^1.1.2",
+    "neo4j-driver": "^1.2.0",
+    "promise": "^7.1.1"
+  }
+}
